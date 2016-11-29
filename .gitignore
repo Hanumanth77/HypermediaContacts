@@ -1,0 +1,13 @@
+*.js
+*.sln
+typings
+node_modules
+bin/
+obj/
+Properties
+*.xproj
+*.user
+/Backup
+/.vs
+*.csproj
+

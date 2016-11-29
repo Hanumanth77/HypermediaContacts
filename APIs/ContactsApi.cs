@@ -11,7 +11,7 @@ using Microsoft.ApplicationServer.Http.Dispatcher;
 // added HttpResponseMessage to return 404 errors
 // tried using HttpRequestMessage<Contact> for POST
 // but my contact object is always null!
-//
+//dasdasd sadd
 // 2011-08-04 (mca)
 // added search support
 // mod search to only support name (for today)

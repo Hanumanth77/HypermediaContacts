@@ -19,7 +19,7 @@ namespace ContactsHypermedia
     protected void Application_Start(object sender, EventArgs e)
     {
       var config = new HttpHostConfiguration();
-      config.AddFormatters(new ContactsMediaTypeFormatterXml("http://localhost:62192"), new ContactsMediaTypeFormatterJson("http://localhost:62192"));
+      config.AddFormatters(new ContactsMediaTypeFormatterXml("http://localhost:62192"));
       RouteTable.Routes.MapServiceRoute<ContactsApi>("contacts", config);
     }
 
