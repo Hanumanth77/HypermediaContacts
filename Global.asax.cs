@@ -13,6 +13,7 @@ using Microsoft.ApplicationServer.Http.Description;
 
 namespace ContactsHypermedia
 {
+    //adadad
   public class Global : System.Web.HttpApplication
   {
 
